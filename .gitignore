@@ -1,3 +1,27 @@
-__pycache__/
-*.pyc
-venv/
+# Node modules
+node_modules/
+
+# TypeScript build outputs (compiled JavaScript, declaration files, and build cache)
+dist/
+build/
+*.js
+*.js.map
+*.d.ts
+*.tsbuildinfo
+
+# Environment files (if any)
+.env
+.env.local
+.env.*.local
+
+# System files
+.DS_Store
+Thumbs.db
+
+# VS Code settings (if you don't want to share workspace settings)
+.vscode/
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
